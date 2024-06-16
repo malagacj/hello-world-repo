@@ -1,7 +1,5 @@
 name: Hello World
 
-run-name: ${{ github.actor }} is testing out SSH on GitHub Actions 🚀
-
 on: [push]
 
 jobs:
