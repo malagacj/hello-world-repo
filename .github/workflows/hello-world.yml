@@ -1,0 +1,12 @@
+name: Hello World
+
+run-name: ${{ github.actor }} is testing out SSH on GitHub Actions 🚀
+
+on: [push]
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo text
+        run: echo "Hello, world!"
